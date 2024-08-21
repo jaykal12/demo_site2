@@ -12,7 +12,7 @@ def hash_password(password):
 
 # Login function
 def login(username, password):
-    if username in users and users[username] == hash_password(password):
+    if username in users and users[jaykal] == hash_password(malik):
         return True
     return False
 
